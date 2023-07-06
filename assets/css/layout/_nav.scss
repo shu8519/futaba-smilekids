@@ -1,0 +1,137 @@
+.nav-global {
+  max-width: 1130px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > li {
+    margin: 0 10px;
+    a {
+      font-family: vdl-megamaru, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      vertical-align: top;
+      display: flex;
+      align-items: center;
+      img {
+        vertical-align: text-bottom;
+        margin-right: 6px;
+      }
+    }
+  }
+  .close {
+    display: none;
+  }
+}
+.btn-menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-global {
+    background: rgba(#fff, 0.9);
+    height: 100%;
+    position: fixed;
+    width: 100vw;
+    top: -20px;
+    left: 0;
+    z-index: 100;
+    display: block;
+    transition: transform 0.5s;
+    transform: translateX(-100%);
+    &.is-open {
+      transform: translateX(0);
+    }
+    > li {
+      margin: 0 10px;
+      border-bottom: 2px dashed #ff6565;
+      padding: 16px 0;
+      text-align: center;
+      &:last-child {
+        border-bottom: none;
+      }
+      a,
+      button {
+        font-weight: bold;
+        font-size: 18px;
+        color: #42b983;
+        text-align: center;
+      }
+      a {
+        display: block;
+      }
+    }
+    .close {
+      display: inline;
+    }
+  }
+  header {
+    padding: 25px 10px 10px;
+    h1 {
+      img {
+        width: 140px;
+      }
+    }
+  }
+  .header-nav-01 {
+    a {
+      font-size: 1rem;
+    }
+  }
+  nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    &.fixed {
+      position: relative;
+      &::after {
+        position: static;
+      }
+    }
+  }
+  .btn-menu {
+    display: block;
+    font-size: 0;
+    color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #ff6565;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    &::before {
+      top: 12px;
+    }
+    &::after {
+      bottom: 10px;
+    }
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+    }
+    span {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+    }
+  }
+  .section-inner {
+    padding: 0 10px;
+  }
+}
