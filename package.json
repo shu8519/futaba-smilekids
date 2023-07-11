@@ -1,33 +1,25 @@
 {
-  "name": "futaba-smilekids",
+  "name": "futabasmilekids",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.1",
-    "core-js": "^3.8.3",
-    "nuxt": "^2.14.12",
-    "nuxt-property-decorator": "^2.9.1"
-  },
-  "devDependencies": {
-    "@nuxt/typescript-build": "^0.6.0",
-    "@nuxtjs/eslint-config-typescript": "^1.0.0",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "@vue/test-utils": "^1.1.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^26.5.2",
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "nuxt-property-decorator": "^2.9.1",
     "sass": "^1.28.0",
     "sass-loader": "^7.3.1",
-    "vuex-module-decorators": "^0.17.0"
+    "vue": "^2.7.10",
+    "vue-loader": "^15.10.1",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^3.0.1"
   }
 }
