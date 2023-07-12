@@ -3,54 +3,63 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_0024bbb6"
   },
   {
     "name": "affiliations",
     "path": "/affiliations",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/affiliations.vue",
-    "chunkName": "pages/affiliations"
+    "chunkName": "pages/affiliations",
+    "_name": "_97e7c92c"
   },
   {
     "name": "company",
     "path": "/company",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/company.vue",
-    "chunkName": "pages/company"
+    "chunkName": "pages/company",
+    "_name": "_6ba41c66"
   },
   {
     "name": "corporation",
     "path": "/corporation",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/corporation.vue",
-    "chunkName": "pages/corporation"
+    "chunkName": "pages/corporation",
+    "_name": "_204d1c1e"
   },
   {
     "name": "flow",
     "path": "/flow",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/flow.vue",
-    "chunkName": "pages/flow"
+    "chunkName": "pages/flow",
+    "_name": "_e8009ad6"
   },
   {
     "name": "illness",
     "path": "/illness",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/illness.vue",
-    "chunkName": "pages/illness"
+    "chunkName": "pages/illness",
+    "_name": "_f82c682e"
   },
   {
     "name": "news",
     "path": "/news",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/news.vue",
-    "chunkName": "pages/news"
+    "chunkName": "pages/news",
+    "_name": "_662be1ba"
   },
   {
     "name": "price",
     "path": "/price",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/price.vue",
-    "chunkName": "pages/price"
+    "chunkName": "pages/price",
+    "_name": "_5d6be91c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/hashimotoshuji/futaba-smilekids/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1fdc967b"
   }
 ]
